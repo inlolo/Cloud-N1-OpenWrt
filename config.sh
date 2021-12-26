@@ -140,6 +140,10 @@ CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-webadmin-zh-cn=y
 # CONFIG_PACKAGE_luci-lib-fs is not set
 CONFIG_PACKAGE_luci-theme-opentomcat=y
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_luci-theme-rosy=y
+CONFIG_PACKAGE_luci-theme-material=y
 CONFIG_PACKAGE_node=y
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_perl=y
