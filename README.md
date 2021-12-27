@@ -23,12 +23,12 @@
   - [x] 添加无线功能（待测试）
   - [x] 启用 Docker （系统——启动项：启动）
   - [x] 添加第三方插件 luci-app-vssr
+  - [x] 添加第三方插件SSR-Plus
+  - [x] 添加第三方插件PassWall
 
 **精简项**：
   - [x] luci-app-accesscontrol
   - [x] luci-app-adbyby-plus
-  - [x] luci-app-SSR-plus
-  - [x] luci-app-PassWall
   - [x] luci-app-arpbind
   - [x] luci-app-ddns
   - [x] luci-app-ipsec-vpnd
