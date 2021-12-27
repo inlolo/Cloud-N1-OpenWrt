@@ -4,9 +4,17 @@ cd openwrt
 #rm -rf files/etc/config/wireless
 #rm -rf files/etc/modules.d/wireless_enable
 # Add luci-app-ssr-plus
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+pushd package/lean
+git clone --depth=1 https://github.com/fw876/helloworld
+popd
+
+
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #passwall
-echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
+#echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
+pushd package/lean
+git clone --depth=1 https://github.com/Lienol/openwrt-package
+popd
 
 # Add luci-app-openclash
 git clone https://github.com/vernesong/OpenClash.git package-temp
