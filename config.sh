@@ -130,17 +130,19 @@ CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_lua-maxminddb=y
 CONFIG_PACKAGE_luasocket=y
 
+CONFIG_PACKAGE_luci-app-qbittorrent=y #qbittorrent
+CONFIG_PACKAGE_luci-app-qbittorrent_static=y
+CONFIG_PACKAGE_qBittorrent-static=y
 
+CONFIG_PACKAGE_luci-app-amule=y
 
-# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+CONFIG_PACKAGE_luci-app-accesscontrol=y
 CONFIG_PACKAGE_luci-app-adbyby-plus=y
-# CONFIG_PACKAGE_luci-app-arpbind is not set
-# CONFIG_PACKAGE_luci-app-ddns is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
+CONFIG_PACKAGE_luci-app-arpbind=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_luci-app-docker=y
-# CONFIG_PACKAGE_luci-app-filetransfer is not set
-
+CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-airplay2=y
 CONFIG_PACKAGE_luci-app-baidupcs-web=y
@@ -151,7 +153,7 @@ CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 CONFIG_PACKAGE_luci-app-dnspod=y
-#CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-familycloud=y
 CONFIG_PACKAGE_luci-app-fileassistant=y
 CONFIG_PACKAGE_luci-app-filebrowser=y
